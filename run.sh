@@ -1,7 +1,8 @@
-stripped="${$1%.s}"
+x=$1
+stripped="${x%.s}"
 
-as -arch arm64 -o $stripped.o $1
-ld -o $stripped $stripped.o \
+as -arch arm64 -o ./obj/$stripped.o $x
+ld -o ./bin/$stripped ./obj/$stripped.o \
 	-lSystem \
 	-syslibroot `xcrun -sdk macosx --show-sdk-path` \
 	-e _start \
