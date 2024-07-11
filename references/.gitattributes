@@ -1,0 +1,2 @@
+SysReg_xml_A_profile-2024-03 filter=lfs diff=lfs merge=lfs -text
+ISA_A64_xml_A_profile-2024-03 filter=lfs diff=lfs merge=lfs -text

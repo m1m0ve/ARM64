@@ -1,0 +1,15 @@
+.global _start
+_start:
+    mov X0, #0x1
+    mov X1, #0x1
+    mov X2, #0x1
+    mov X3, #0x1
+    mov X4, #0x1
+    mov X5, #0x1
+    mov X6, #0x1
+    mov X7, #0x1
+    mov X8, #0x1
+    mov X9, #0x1
+    mov X10, #0x1
+    mov X11, #0x1
+

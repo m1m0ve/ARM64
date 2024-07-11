@@ -1,0 +1,6 @@
+references/DDI0487G_b_armv8_arm.pdf filter=lfs diff=lfs merge=lfs -text
+AArch64_ops.xlsx filter=lfs diff=lfs merge=lfs -text
+guides/shellcode_macOS.pdf filter=lfs diff=lfs merge=lfs -text
+guides/DEN0024A_v8_architecture_PG.pdf filter=lfs diff=lfs merge=lfs -text
+references/ISA_A64_xml_A_profile-2024-03 filter=lfs diff=lfs merge=lfs -text
+references/SysReg_xml_A_profile-2024-03 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,7 @@
+Apple-ARM64-shellcode/
+*.swp
+references/SysReg_xml_A_profile-2024-03
+references/ISA_A64_xml_A_profile-2024-03
+bin/
+.DS_Store
+*.swo
